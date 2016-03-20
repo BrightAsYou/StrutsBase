@@ -50,5 +50,11 @@
   	<artifactId>slf4j-log4j12</artifactId>
   	<version>1.7.1</version>
   </dependency>
+  <dependency>
+  	<groupId>commons-lang</groupId>
+  	<artifactId>commons-lang</artifactId>
+  	<version>2.6</version>
+  	<type>jar.lastUpdated</type>
+  </dependency>
   </dependencies>
 </project>
