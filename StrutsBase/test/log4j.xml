@@ -167,7 +167,7 @@
     </logger>
     
     <root>
-        <level value="debug"/>
+        <level value="warn"/>
         <appender-ref ref="stdout-appender"/>
         <appender-ref ref="daily-rolling-file-appender"/>
     </root>

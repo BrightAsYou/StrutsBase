@@ -13,14 +13,14 @@ import prs.rfh.models.LoginUser;
  * @version 1.0
  * @author renfh
  * @date 2016-03-20
- * @category 用户登陆
+ * @category 鐢ㄦ埛鐧诲綍
  */
 public class UserLoinAction extends BaseAction {
 	
 	private LoginUser loginUser;
 	
 	/**
-	 * 用户登录
+	 * 鐧诲綍
 	 */
 	public String login(){
 		return SUCCESS;

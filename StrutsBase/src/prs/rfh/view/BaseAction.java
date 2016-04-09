@@ -26,9 +26,9 @@ public class BaseAction extends ActionSupport implements ServletContextAware,Ses
 		// TODO Auto-generated method stub
 		
 	}
-	//0 ÕË»§ÏµÍ³¿ÉÓÃ
+	//0 ï¿½Ë»ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½
 	private static String isAccountAccessable() {
-		//TODO Á¬½Ó²ÎÊıÊı¾İ¿â»ñÈ¡¿ª¹Ø×´Ì¬
+		//TODO ä»å‚æ•°è¡¨è·å–è´¦æˆ·å¼€å…³
 		//getSysParam(SysConstant.SWITCH.ACCOUNT_SWITCH_FLAG);
 		return ACCESSABLE;
 	}
@@ -45,7 +45,7 @@ public class BaseAction extends ActionSupport implements ServletContextAware,Ses
 		
 	}
 	/**
-	 * »ñÈ¡HttpServletRequest</br>
+	 * è·å–HttpServletRequest</br>
 	 * 2016-03-20
 	 * @author renfh
 	 * @return HttpServletRequest
@@ -54,7 +54,7 @@ public class BaseAction extends ActionSupport implements ServletContextAware,Ses
 		return ServletActionContext.getRequest();
 	}
 	/**
-	 * »ñÈ¡HttpServletResponse</br>
+	 * è·å–HttpServletResponse</br>
 	 * 2016-03-20
 	 * @author renfh
 	 * @return HttpServletResponse
